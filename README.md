@@ -1,6 +1,8 @@
 # SwieeftImageViewer
 
 iOS image viewer similar to Facebook.
+<br><br>
+<img src="Resource/SwieeftImageViewerExampleImage1.gif" width="300"/> <img src="Resource/SwieeftImageViewerExampleImage2.gif" width="300"/>
 
 ## Usages
 ```swift
