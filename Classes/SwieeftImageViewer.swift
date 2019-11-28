@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SwieeftImageViewer: UIView {
+open class SwieeftImageViewer: UIView {
 
     // MARK: UI Init
     
