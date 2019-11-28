@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/SwieeftImageViewer.podspec.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/swieeft/SwieeftImageViewer.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
