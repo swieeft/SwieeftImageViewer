@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class SwieeftImageViewer: UIView {
+public class SwieeftImageViewer: UIView {
 
     // MARK: UI Init
     
@@ -115,7 +115,7 @@ open class SwieeftImageViewer: UIView {
         contentsDetailViewInit()
     }
     
-    required  init?(coder: NSCoder) {
+    public required  init?(coder: NSCoder) {
         super.init(coder: coder)
         
         contentsDetailViewInit()
@@ -343,11 +343,11 @@ extension SwieeftImageViewer {
 
 extension SwieeftImageViewer: UIScrollViewDelegate {
    
-    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+    public func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return contentsImageView
     }
     
-    func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
+    public func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
         UIView.animate(withDuration: 0.2) { [weak self] in
             self?.closeButton.alpha = 0
             self?.contentsLabel.alpha = 0
@@ -355,7 +355,7 @@ extension SwieeftImageViewer: UIScrollViewDelegate {
         }
     }
     
-    func scrollViewDidEndZooming(_ scrollView: UIScrollView, with view: UIView?, atScale scale: CGFloat) {
+    public func scrollViewDidEndZooming(_ scrollView: UIScrollView, with view: UIView?, atScale scale: CGFloat) {
         
         if scale == 1.0 {
             UIView.animate(withDuration: 0.2) { [weak self] in
