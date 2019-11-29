@@ -10,6 +10,7 @@ public func show(originImageView: UIImageView?, contentsText: String?)
 ```
 ```swift
 import SwieeftImageViewer
+
 class ViewController: UIViewController {
 
   var imageViewer: SwieeftImageViewer!
