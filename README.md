@@ -39,3 +39,9 @@ To install SwieeftImageViewer, simply add the following line to your Podfile:
 ```ruby
 pod 'SwieeftImageViewer', '~> 1.0.2'
 ```
+
+## LICENSE
+
+The MIT License
+
+SwieeftImageViewer is released under the MIT license. [See LICENSE](https://github.com/swieeft/SwieeftImageViewer/blob/master/LICENSE) for details.
